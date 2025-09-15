@@ -1,0 +1,10 @@
+schema: schema.graphql
+
+models:
+  Time:
+    model: time.Time
+  Account:
+    model: github.com/dhakarRaghu/Microservices-GoLang/graphql.Account
+    fields:
+      orders:
+        resolver: true
